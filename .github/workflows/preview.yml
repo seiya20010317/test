@@ -4,6 +4,7 @@ on:
   push:
     branches-ignore:
       - main
+      - staging
 
 env:
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
